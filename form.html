@@ -1,0 +1,83 @@
+<html>
+  <head>
+    <style>
+      *{
+       background-color:white;
+      }
+    table{     
+    posittion:relative;
+      height:500;
+      width:800;
+      margin-top:100;
+      margin-left:220;      
+      text-align:center;
+      font-size:18;
+     }
+
+#txt{
+    height:30;
+    width:400; 
+    font-size:16;
+    box-shadow:2px 2px 2px 2px gray;
+ }
+#btn{
+  height:30;
+  width:600;
+  background-color:teal;
+  color:white;
+  font-size:22;
+  font-style:italic;
+  box-shadow:2px 2px 2px 2px teal;
+}
+    </style>
+  </head>
+  <body>
+ 
+   <form>
+    <table border="1">
+     <tr>
+      <td>Enter Name</td>
+      <td colspan="6"><input type="text"  id="txt" placeholder="Enter Name " ></td>    
+     </tr>     
+     <tr>
+      <td>Enter Father Name</td>
+      <td colspan="6"><input type="text" id ="txt" placeholder="Enter  Father Name" ></td>
+     </tr>
+     <tr>
+      <td>Enter Mother Name</td>
+      <td colspan="6"><input type="text" id ="txt" placeholder="Enter Mother Name"></td>   
+     </tr>
+     <tr>
+      <td>Select Gender</td>
+      <td colspan="2"><input type="radio" name="gender" >Male</td>
+      <td colspan="2"><input type="radio" name="gender" >Female</td>
+      <td colspan="2"><input type="radio" name="gender">Other</td>
+     </tr>
+     <tr >
+      <td>Enter Aadhar Card Number</td>
+      <td colspan="6"><input type="text" id="txt" placeholder="Enter Aadhar Card Number"></td>     
+     </tr>
+     <tr>
+      <td>Choose Subjects </td>
+      <td><input type="checkbox">Hindi</td>
+      <td><input type="checkbox">English</td>
+      <td><input type="checkbox">Math</td>
+      <td><input type="checkbox">Science</td>
+      <td><input type="checkbox">Social Science</td>
+       <td><input type="checkbox">Art</td>
+     </tr>
+     <tr>
+      <td>Date  of Birth</td>
+      <td colspan="6"><input type="date"></td>
+     </tr>
+     <tr>
+      <td colspan="7"><input type="submit" value="Submit" id="btn"></td>
+     </tr> 
+     <tr>
+      <td colspan="7"><input type="submit"  value="Back" id="btn"></td>
+     </tr>
+
+   </table>
+   </form>     
+  </body>
+</html>
